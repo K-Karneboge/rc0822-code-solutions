@@ -1,0 +1,13 @@
+h1 {
+  font-family: 'Crimson Text', serif;
+}
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: medium;
+  font-style: oblique;
+}
+p {
+font-family: 'Noto Sans', sans-serif;
+line-height: 1.2rem;
+font-size: small;
+}
