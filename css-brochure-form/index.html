@@ -10,25 +10,33 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h2>LEARN MORE</h2>
-  </header>
   <section>
     <form action="">
-      <label for="companymail">COMPANY EMAIL</label><br>
-      <input type="email" id="companymail" placeholder="sally@company.com"><br>
-      <label for="name">NAME</label><br>
-      <input type="text" id="name" placeholder="Sally Smith"><br>
-      <label for="wherehire">WHERE ARE YOU HIRING?</label><br>
-      <input type="text" id="wherehire" placeholder="City, Country"><br>
-      <label for="hires-select">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label><br>
-      <select name="hires" id="hires-select">
-        <option value="1-2">1-2 Engineers</option>
-        <option value="3+">3 to All Existing Engineers</option>
-      </select><br>
-      <p class="alignright">
+      <div>
+        <h2 id="formtitle">LEARN MORE</h2>
+      </div>
+      <div>
+        <label for="companymail">COMPANY EMAIL</label><br>
+        <input type="email" id="companymail" placeholder="sally@company.com"><br>
+      </div>
+      <div>
+        <label for="name">NAME</label><br>
+        <input type="text" id="name" placeholder="Sally Smith"><br>
+      </div>
+      <div>
+        <label for="wherehire">WHERE ARE YOU HIRING?</label><br>
+        <input type="text" id="wherehire" placeholder="City, Country"><br>
+      </div>
+      <div>
+        <label for="hires-select">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label><br>
+        <select name="hires" id="hires-select">
+          <option value="1-2">1-2 Engineers</option>
+          <option value="3+">3 to All Existing Engineers</option>
+        </select><br>
+      </div>
+      <div class="right-align">
         <input id="submitlearn" type="submit" value="SUBMIT">
-      </p>
+      </div>
     </form>
   </section>
 </body>
