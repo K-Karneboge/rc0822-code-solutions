@@ -1,0 +1,44 @@
+div {
+  padding: px;
+}
+
+.container {
+  display: flex;
+  flex: auto;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-twothird {
+  width: calc(100% * 2 / 3);
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
+
+img {
+  width: 100%;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+h1 {
+  font-size: xx-large;
+}
