@@ -1,0 +1,46 @@
+#title-row {
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  color: white;
+}
+
+.columnthird {
+  width: calc(100% / 3);
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imageframe {
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  justify-content: center;
+}
+
+.imageframe img {
+  background-color: white;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 25%;
+}
+
+* {
+  background-color: #1996da;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
