@@ -1,0 +1,66 @@
+.container {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBWXvYC6trAT7zuC8m5xLtlmgzD.woff2") format("woff2");
+  unicode-range:
+    u+0000-00ff,
+    u+0131,
+    u+0152-0153,
+    u+02bb-02bc,
+    u+02c6,
+    u+02da,
+    u+02dc,
+    u+2000-206f,
+    u+2074,
+    u+20ac,
+    u+2122,
+    u+2191,
+    u+2193,
+    u+2212,
+    u+2215,
+    u+feff,
+    u+fffd;
+  flex-direction: column;
+  text-align: center;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.point-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.point {
+  display: flex;
+  flex-basis: 50%;
+  text-align: left;
+}
+
+.point img {
+  width: 100px;
+}
+
+.textframe {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 220%;
+  text-transform: capitalize;
+}
+
+.container button {
+  background: none;
+  border-color: #d14c45;
+  color: #d14c45;
+  border-width: 3px;
+  font-weight: 500;
+  width: fit-content;
+  font-size: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
