@@ -30,3 +30,10 @@ function getFirstName(person) {
 }
 console.log(getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' }));
 console.log(getFirstName(protaganist));
+
+function getLastElement(array) {
+  var lastElement = array[array.length - 1];
+  return lastElement;
+}
+
+console.log(getLastElement(['propane', 'and', 'propane', 'accessories']));
