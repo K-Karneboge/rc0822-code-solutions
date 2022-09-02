@@ -53,18 +53,19 @@ function doubleAll(numbers) {
   }
   return doubled;
 }
+
 function getKeys(object) {
   var keys = [];
-  for (object.keys in object) {
-    keys.push(object.keys);
+  for (var key in object) {
+    keys.push(key);
   }
   return keys;
 }
 
 function getValues(object) {
   var values = [];
-  for (var i = 0; i < object.length; i++) {
-    values.push(object[i]);
+  for (var x in object) {
+    values.push(object[x]);
   }
   return values;
 }
