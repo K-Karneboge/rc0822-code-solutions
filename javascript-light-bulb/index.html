@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .containerOn{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+      width: 100vw;
+      height: 100vh;
+      background: gainsboro;
+      transition: 1s;
+    }
+    .containerOff{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      transition: 1s;
+    }
+    .lightOn{
+      background-color: 	#faea84;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      box-shadow: #faea84;
+      transition: 1s;
+    }
+    .lightOff{
+      background-color: dimgray;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      transition: 1s;
+    }
+
+  </style>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="containerOn container">
+    <div class="lightOn"></div>
+  </div>
+</body>
+</html>
