@@ -39,7 +39,7 @@ function containsD(string) {
   return true;
 }
 
-console.log(numbers.filter(isEven));
-console.log(numbers.filter(isGreaterThan5));
-console.log(names.filter(startsWithE));
-console.log(names.filter(containsD));
+console.log('these are even: \n', numbers.filter(isEven));
+console.log('these are greater than 5: \n', numbers.filter(isGreaterThan5));
+console.log('these start with E: \n', names.filter(startsWithE));
+console.log('these contain D or d: \n', names.filter(containsD));
