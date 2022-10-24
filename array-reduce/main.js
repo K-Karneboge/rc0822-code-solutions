@@ -29,5 +29,6 @@ function transaction(object) {
     return object.amount * -1;
   } else return object;
 }
+const composite = traits.reduce((currentValue, previousValue) => Object.assign(previousValue, currentValue));
 
-console.log(traits.reduce((currentValue, previousValue) => Object.assign(previousValue, currentValue)));
+console.log(composite);
