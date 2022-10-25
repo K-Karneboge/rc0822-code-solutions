@@ -49,4 +49,4 @@ class TodoList {
   }
 }
 
-export { TodoList as default };
+export default TodoList;

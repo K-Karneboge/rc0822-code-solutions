@@ -44,4 +44,4 @@ class TodoForm {
   }
 }
 
-export { TodoForm as default };
+export default TodoForm;
