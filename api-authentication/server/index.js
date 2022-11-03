@@ -59,6 +59,9 @@ select "username",
   db.query(sql, params)
     .then(result => {
       const [acc] = result.rows;
+      if (!acc) {
+        throw new ClientError(401, 'Invalid login');
+      }
       const userId = acc.userId;
       const username = acc.username;
       argon2.verify(acc.hashedPassword, password)
@@ -72,6 +75,7 @@ select "username",
           }
         })
         .catch(err => next(err));
+
     })
     .catch(err => next(err));
 });
